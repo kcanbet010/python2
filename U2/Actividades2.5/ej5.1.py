@@ -55,7 +55,9 @@ def main():
                 actvidades += " -Quedarse en casa (0€ / 3 horas)\n"
 
             case _:
-                print(actvidades)
+                print("Opcion no valida")
+
+    print(actvidades)
 
 if __name__ == "__main__":
     main()
